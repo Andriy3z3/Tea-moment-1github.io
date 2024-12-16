@@ -138,7 +138,7 @@ body{
 }
 
 .top{
-  background-image: url(../images/Top-bg.jpg);
+  background-image: url(images/Top-bg.jpg);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: cover;
