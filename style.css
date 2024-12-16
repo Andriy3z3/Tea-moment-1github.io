@@ -136,9 +136,18 @@ body{
 .user-actions__item-search{
   margin-left: 80px;
 }
+/* .user-actions__link{
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+svg{
+  max-width: 100%;
+  height: auto;
+} */
 
 .top{
-  background-image: url(images/Top-bg1.jpg);
+  background-image: url(images/Top-bg.jpg);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: cover;
@@ -321,7 +330,7 @@ body{
   border-bottom: 1px solid #b8b58b;
   background-color: transparent;
   padding: 3px 15px;
-  width: 438px;
+  width: 430px;
   margin-right: 25px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -521,6 +530,54 @@ body{
   align-items: center;
   gap: 0 20px;
 }
+.main-anim:hover
+{
+  background-color: #F7F2EA;
+  transition: all 0.5s ease;
+}
+.footer__products-item:hover,
+.footer__company-item:hover{
+  color: rgb(169, 174, 3);
+  font-size: 21px;
+  transition: all 0.35s ease;
+}
+.main-blog__item-link:hover,
+.menu__item:hover,
+.user-actions__item:hover,
+.footer__nav-phone:hover,
+.footer__nav-email:hover{
+  color: rgb(169, 174, 3);
+  transition: all 0.35s ease;
+}
+.mailing-list__btn:hover{
+  background-color: #F7F2EA;
+  transition: all 0.5s ease;
+  /* font-size: 22px; */
+}
+.hover-p:hover{
+  font-size: 21px;
+  transition: all 0.5s ease;
+}
+.footer__facebook{
+  color: #754E29;
+}
+
+.footer__facebook:hover{
+  color: #1026a5;
+  transition: all 0.35s ease;
+}
+.footer__youtube:hover{
+  color: #c4302b;
+  transition: all 0.35s ease;
+}
+.footer__instagram:hover{
+  color: #bb1c91;
+  transition: all 0.35s ease;
+}
+.footer__twitter:hover{
+  color: #2a82ed;
+  transition: all 0.35s ease;
+}
 
 
 
@@ -555,6 +612,24 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference){
+  :root{
+    scroll-behavior: smooth;
+  }
+}
 
 @media(max-width: 1000px) {
   .user-actions__item-search{
@@ -1021,5 +1096,4 @@ body{
   .footer__social-list{
     margin-left: 0;
   }
-
 }
